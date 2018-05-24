@@ -1,0 +1,43 @@
+
+div {
+   text-align: center;
+   background-color: #eee;
+   clear:both;
+}
+h1 {
+   text-align: center;
+   background-color: #eee;
+   margin: 0px;
+}
+#tab1{
+   float:left;
+   text-align: center;
+   width:40%;
+   padding:5%;
+   margin: 0px;
+}
+#tab2{
+   float:right;
+   text-align: center;
+   width:40%;
+   padding:5%;
+   margin: 0px;
+}
+.about{
+   
+}
+#icon{
+   padding: 30px;
+}
+#photo1{
+   text-align: center;
+   margin: 0px;
+}
+#photo2{
+   text-align: center;
+   margin: 0px;
+}
+#photo3{
+   text-align: center;
+   margin: 0px;
+}
