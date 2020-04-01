@@ -1,0 +1,22 @@
+{
+"name": "sdtest-commercial-cui-master",
+  "version": "1.0.0",
+  "description": "ここでは、カメラで撮影した画像をディープラーニングによって良品か不良品かを検査する方法について解説します。",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "python-shell": "^1.0.8"
+	},
+	"node-red" : {
+    "nodes": {
+      "python-shell": "node_modules/python-shell/python-shell.js"
+    }
+  }
+}
