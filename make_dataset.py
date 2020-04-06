@@ -44,22 +44,22 @@ def capture_camera():
 
     cap = cv2.VideoCapture(args.cameraid)
     timestamp = str(datetime.now().isoformat()).replace(':', '-')[0:-7]
-    basedir = '/Users/nishijunpei/Desktop/SDTest-Commercial-CUI-master'
+    basedir = '/Users/nishijunpei/Desktop/SDTest-Commercial-CUI-master/'
     if args.datasetname:
         datasetname = args.datasetname
     else:
         datasetname = input('please input a name of dataset: ')
 
-    Path(os.path.join(basedir, datasetname)).mkdir(exist_ok=True)
-    Path(os.path.join(basedir, datasetname, 'train')).mkdir(exist_ok=True)
-    Path(os.path.join(basedir, datasetname, 'test')).mkdir(exist_ok=True)
-    Path(os.path.join(basedir, datasetname, 'train', 'OK')).mkdir(exist_ok=True)
-    Path(os.path.join(basedir, datasetname, 'test', 'OK')).mkdir(exist_ok=True)
-    Path(os.path.join(basedir, datasetname, 'test', 'NG')).mkdir(exist_ok=True)
+    Path(os.path.join(basedir+"testimages", datasetname)).mkdir(exist_ok=True)
+    Path(os.path.join(basedir+"testimages", datasetname, 'train')).mkdir(exist_ok=True)
+    Path(os.path.join(basedir+"testimages", datasetname, 'test')).mkdir(exist_ok=True)
+    Path(os.path.join(basedir+"testimages", datasetname, 'train', 'OK')).mkdir(exist_ok=True)
+    Path(os.path.join(basedir+"testimages", datasetname, 'test', 'OK')).mkdir(exist_ok=True)
+    Path(os.path.join(basedir+"testimages", datasetname, 'test', 'NG')).mkdir(exist_ok=True)
 
-    train_OK_path = os.path.join(basedir, datasetname, 'train', 'OK')
-    test_OK_path = os.path.join(basedir, datasetname, 'test', 'OK')
-    test_NG_path = os.path.join(basedir, datasetname, 'test', 'NG')
+    train_OK_path = os.path.join(basedir+"testimages", datasetname, 'train', 'OK')
+    test_OK_path = os.path.join(basedir+"testimages", datasetname, 'test', 'OK')
+    test_NG_path = os.path.join(basedir+"testimages", datasetname, 'test', 'NG')
 
     counter_train_OK, counter_test_OK, counter_test_NG = 0, 0, 0
 
