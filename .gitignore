@@ -1,0 +1,10 @@
+﻿__pycache__
+module/__pycache__/
+learned_weight/*
+!learned_weight/.empty
+captured_image/*
+!captured_image/.empty
+!captured_image/tmp/.empty
+testimages/*
+!testimages/.empty
+venv

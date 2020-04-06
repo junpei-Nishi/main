@@ -44,7 +44,7 @@ def capture_camera():
 
     cap = cv2.VideoCapture(args.cameraid)
     timestamp = str(datetime.now().isoformat()).replace(':', '-')[0:-7]
-    basedir = 'testimages'
+    basedir = '/Users/nishijunpei/Desktop/SDTest-Commercial-CUI-master'
     if args.datasetname:
         datasetname = args.datasetname
     else:
