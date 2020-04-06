@@ -73,7 +73,7 @@ def capture_camera():
             frame = cv2.resize(frame, args.size)
 
         if args.camera_guide and min(args.size) >= 226:
-            guide = cv2.imread("view_finder_v3.png", cv2.IMREAD_UNCHANGED)
+            guide = cv2.imread(basedir +"/view_finder_v3.png", cv2.IMREAD_UNCHANGED)
             guide_height, guide_width = guide.shape[0:2]
             frame_height, frame_width = frame.shape[0:2]
             left_top = int(frame_width / 2 - guide_width / 2), int(frame_height / 2 - guide_height / 2)
