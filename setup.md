@@ -1,18 +1,19 @@
 
-SDTest-Commercial-CUI-master設定方法
-============
+#SDTest-Commercial-CUI-master設定方法
 
-make\_dataset.pyのbasedirをmake\_dataset.pyのあるディレクトリまでのパスに変える
-------------
 
+##make\_dataset.pyのbasedirをmake\_dataset.pyのあるディレクトリまでのパスに変える
 
 
 
 
-/node\_module/pythonshell/pythonshell.htmlの37行目scriptPathをSDTest-Commercial-CUI-masterまでのパスに変える。
-------------
+
+
+##/node\_module/pythonshell/pythonshell.htmlの37行目scriptPathをSDTest-Commercial-CUI-masterまでのパスに変える。
 
 
 
+##/./node-red/setting.jsのnodesDir: をモジュールまでのパスに変更
 
-------------
+
+

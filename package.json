@@ -12,11 +12,11 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "python-shell": "^1.0.8"
+		"node-red-contrib-make-dataset": "./node_modules/node-red-contrib-make-dataset"
 	},
 	"node-red" : {
     "nodes": {
-      "python-shell": "node_modules/python-shell/python-shell.js"
+      "make_dataset": "node_modules/make_dataset/make_dataset.js"
     }
   }
 }
