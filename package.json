@@ -16,7 +16,9 @@
 	},
 	"node-red" : {
     "nodes": {
-      "make_dataset": "node_modules/make_dataset/make_dataset.js"
+      "make_dataset": "node_modules/node-red-contrib-make-dataset/make_dataset.js",
+			"sample_optimization": "node_modules/node-red-contrib-sample-optimization/sample_optimization.js",
+			"sample_inspection": "node_modules/node-red-contrib-sample-inspection/sample_inspection.js"
     }
   }
 }
