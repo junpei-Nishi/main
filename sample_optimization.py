@@ -85,7 +85,7 @@ def execute_cmdline():
                         action='store_true',
                         help='trim at center point')
 
-    parser.add_argument('-tsize', '--trimming_size',
+    parser.add_argument('-ts', '--trimming_size',
                         default=(192, 192),
                         help='trim at center point',
                         type=coords)

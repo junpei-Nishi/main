@@ -8,3 +8,6 @@ captured_image/*
 testimages/*
 !testimages/.empty
 venv
+node_modules/python-shell/*
+package-lock.json
+
